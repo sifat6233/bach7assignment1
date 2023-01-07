@@ -1,36 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,600;1,700;1,800&display=swap');
-*{
-  margin:0;
+
+* {
+  margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
 
+
 /* header------------------- */
-#bg-img{
+#bg-img {
   background-image: url(images/banner/banner2.png);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
 }
-.bg-document{
+
+.bg-document {
   width: 300px;
   position: right;
   padding-top: 180px;
   padding-left: 150vh;
   text-align: right;
 }
-.bg-document h1{
+
+.bg-document h1 {
   font-size: 40px;
   font-weight: bold;
   text-transform: capitalize;
 }
-.bg-document p{
+
+.bg-document p {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.686);
   margin-top: 10px;
 }
-.btn{
+
+.btn {
   padding: 12px 25px;
   color: white;
   background-color: rgba(175, 79, 19, 0.983);
@@ -40,47 +46,54 @@
   margin-top: 20px;
   cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
   color: black;
-  background-color:#079D71;
+  background-color: #079D71;
 }
 
 
 /* service history--------------------- */
-.display-flex{
+.display-flex {
   display: flex;
 }
 
-.history-img{
+.history-img {
   width: 50%;
 }
-.history-img img{
+
+.history-img img {
   width: 420px;
   padding: 60px 100px;
   margin-left: 50px;
 }
 
-.history-description{
+.history-description {
   margin-top: 170px;
   width: 400px;
   margin-left: 40px;
 }
-.history-description h2{
+
+.history-description h2 {
   font-size: 35px;
 }
-.history-description p{
+
+.history-description p {
   font-size: 14px;
 
 }
+
 .p-margin {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
 img.click-icon {
   width: 20px;
-  margin-top: 5px; 
-    margin-right: 10px;
-} 
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
 .icon-list {
   display: flex;
   margin-bottom: 6px;
@@ -88,4 +101,131 @@ img.click-icon {
 
 .icon-list p {
   margin-top: 5px;
+}
+
+
+/* my plan ----------------- */
+.title {
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin: 30px 0px;
+  margin-top: 55px;
+}
+
+.my-plans-wrapper {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.single-my-plan {
+  width: 250px;
+}
+
+.single-my-plan {
+  text-align: center;
+}
+
+.single-my-plan img {
+  margin-bottom: 15px;
+  width: 80px;
+}
+
+.single-my-plan h2 {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.single-my-plan p {
+  color: rgba(0, 0, 0, 0.752);
+}
+
+
+/* contract------------------- */
+
+#contract {
+  width: 1000px;
+  margin: auto;
+}
+
+.contract img {
+  width: 100%;
+
+}
+
+.single-img img {}
+
+/* footer----------------------- */
+.footer {}
+
+.footer-wrapper {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+}
+
+.future {
+  width: 500px;
+  margin-right: 55vh;
+}
+
+.future p {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ffffffad;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding-top: 20vh;
+  padding-bottom: 15vh;
+}
+
+.social-media img {
+  width: 30px;
+  margin-right: 8px;
+}
+
+.subscribe h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.subscribe input {
+  width: 230px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background: none;
+}
+
+::placeholder {
+  padding: 10px;
+}
+
+button.button-2 {
+  width: 110px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #dd761e;
+  font-weight: 600;
+}
+
+textarea:focus,
+input:focus {
+  color: white
+}
+
+input,
+select,
+textarea {
+  color: #dd761e;
 }
